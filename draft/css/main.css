@@ -316,7 +316,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .banner {
-	background-image: url(../images/9.jpg);
+	background-image: url(../images/cs/1.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
@@ -347,7 +347,7 @@ ul li {
 	$intro
 ========================================================================== */
 .intro {
-	background-image: url(../images/back/a.jpg);
+	background-image: url(../images/pabrik.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
@@ -356,8 +356,8 @@ ul li {
 	background-size: cover;
 	min-height: auto;	
 }
-.intro h1 {
-	color: #fff;
+.intro h2 {
+	color: #f4d142;
 	margin-top: 10px;
 }
 .intro p {
@@ -533,6 +533,7 @@ ul li {
 /* ------------------------------------------------------------------------------
 	 Testimonials
 -------------------------------------------------------------------------------*/
+
 .testimonials {
 	background-color: #00aeda;
 	position: relative;
@@ -543,7 +544,7 @@ ul li {
 	margin: 0;
 	padding: 100px 15%;
 }
-.testimonials h1 {
+.testimonials h5 {
 	color: #fff;
 	font: 23px "Merriweather";
 	font-weight: 300;
@@ -570,15 +571,21 @@ ul li {
 /* ------------------------------------------------------------------------------
 	Contact form
 -------------------------------------------------------------------------------*/
+#contact {
+	background-image: url(../images/back/d.jpg);
+}
+
 .conForm {
 	text-align: center;
 }
 .conForm h5 {
 	font-size: 30px;
+	color: #fff;
 }
 .conForm p {
-	text-align: center;
+	text-align: left;
 	margin: 7%;
+	font-size: 28px;
 }
 .conForm input {
 	color: #797979;
