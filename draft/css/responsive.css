@@ -92,6 +92,10 @@
  .footer .footer-col {
  margin-bottom: 50px;
 }
+iframe{
+	width: 720px;
+	height: 300px;
+}
 }
 @media screen and (max-width: 640px) {
  .banner-text {
@@ -99,6 +103,10 @@
 }
  .testimonials p {
  font-size: 12px;
+}
+iframe{
+	width: 600px;
+	height: 300px;
 }
 @media screen and (max-width: 480px) {
  .banner-text {
@@ -110,6 +118,10 @@
  .testimonials p {
  font-size: 12px;
 }
+iframe{
+	width: 425px;
+	height: 300px;
+}
 @media screen and (max-width: 320px) {
  .banner-text {
  padding-top: 55%;
@@ -119,5 +131,9 @@
 }
  .testimonials p {
  font-size: 12px;
+}
+iframe{
+	width: 290px;
+	height: 300px;
 }
 }
